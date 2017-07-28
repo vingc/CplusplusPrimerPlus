@@ -71,6 +71,7 @@ int main() {
         cout << "unknown reason!" << endl;
     }
 
+    inFile.close();
     cout << "char cnt:" << cnt << endl;
     return 0;
 
