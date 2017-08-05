@@ -6,6 +6,8 @@
 
 using namespace std;
 
+int Stonewt::bb = 4;
+
 Stonewt::Stonewt() {
     stone = 0;
     lbs_left = 0;
@@ -27,6 +29,10 @@ Stonewt::Stonewt(int p_stone, double p_lbs_left) {
 Stonewt::~Stonewt() {}
 
 void Stonewt::show_lbs() const {
+    cout << lbs << " pounds\n";
+}
+
+void Stonewt::show_lbs() {
     cout << lbs << " pounds\n";
 }
 

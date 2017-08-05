@@ -142,6 +142,8 @@
     <ClCompile Include="Chapter10.cpp" />
     <ClCompile Include="Chapter11_def.cpp" />
     <ClCompile Include="Chapter11_main.cpp" />
+    <ClCompile Include="Chapter12_def.cpp" />
+    <ClCompile Include="Chapter12_main.cpp" />
     <ClCompile Include="Chapter9.cpp" />
     <ClCompile Include="HelloWorld.cpp" />
     <ClCompile Include="Chapter2.cpp" />
@@ -155,6 +157,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter11.h" />
+    <ClInclude Include="chapter12.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

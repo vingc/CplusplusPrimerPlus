@@ -54,9 +54,18 @@
     <ClCompile Include="Chapter11_main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Chapter12_def.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chapter12_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="chapter11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter12.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
